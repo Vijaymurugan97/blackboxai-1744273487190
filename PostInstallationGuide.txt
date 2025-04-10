@@ -1,0 +1,46 @@
+PDF Processor - Post Installation Guide
+=====================================
+
+Thank you for installing the PDF Processor application! Follow these steps to get started:
+
+1. First Launch
+   -------------
+   After installation, you can launch the application from:
+   - The desktop shortcut "PDF Processor"
+   - The Start Menu under "PDF Processor"
+
+2. Initial Setup
+   -------------
+   - The first time you run the application, it will create a database file to store processed data
+   - You can place your PDF files in any location, but for convenience, you may want to use the 
+     "data/input" folder created during installation
+
+3. Processing PDFs
+   ---------------
+   a) From the main menu, select the appropriate converter based on your PDF format:
+      - Task/Description/Documentation/Margin (TDDM)
+      - Task/Description/Documentation/Interval/Margin (TDDIM)
+      - Task/Description/MP/N/PN/Limit/Margin (TDMPLM)
+      - Task/Description/MP/N/PN/Limit/Margin/Documentation (TDMPLMD)
+   
+   b) In the converter window:
+      - Click "Browse" to locate your PDF file
+      - Click "Process PDF" to extract the data
+      - Review the extracted data in the table view
+      - Double-click on any cell to edit values if needed
+      - Click "Export to Excel" to save the processed data
+
+4. Troubleshooting
+   ---------------
+   If you encounter any issues:
+   - Ensure your PDF is not password-protected
+   - Verify the PDF format matches the converter you selected
+   - Check that the PDF contains the expected data structure
+   - Make sure you have sufficient permissions to write to the data directory
+
+5. Database Location
+   ----------------
+   The application's database is stored in the "data" folder in the installation directory.
+   Do not delete this folder unless you want to reset your processed data.
+
+For more information, refer to the README.md file included with the application.
